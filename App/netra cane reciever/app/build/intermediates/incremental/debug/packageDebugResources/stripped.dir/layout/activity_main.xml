@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#121212">
+
+    <TextView
+        android:id="@+id/tvIpAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phone IP: Detecting..."
+        android:textColor="#4CAF50"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:paddingBottom="8dp" />
+
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Server: Starting on port 8080..."
+        android:textColor="#B0BEC5"
+        android:textSize="14sp"
+        android:paddingBottom="12dp" />
+
+    <TextView
+        android:id="@+id/tvLastSignal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Last Signal: None"
+        android:textColor="#FFC107"
+        android:textSize="16sp"
+        android:paddingBottom="12dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#1E1E1E"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/tvLogs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#E0E0E0"
+            android:fontFamily="monospace"
+            android:textSize="12sp"
+            android:text="Waiting for Raspberry Pi triggers...\n" />
+    </ScrollView>
+</LinearLayout>

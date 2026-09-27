@@ -1,0 +1,14 @@
+# Python / Raspberry Pi temporary files
+__pycache__/
+*.pyc
+netra_frames/
+
+# Android build outputs
+*.iml
+.gradle/
+build/
+app/build/
+
+# OS files
+.DS_Store
+Thumbs.db

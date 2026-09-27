@@ -1,0 +1,27 @@
+R_DEF: Internal format may change without notice
+local
+color background
+color black
+color on_primary
+color on_surface
+color primary
+color primary_dark
+color secondary
+color surface
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id tvIpAddress
+id tvLastSignal
+id tvLogs
+id tvStatus
+layout activity_main
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+string btn_test_coroutine
+string status_ready
+string welcome_title
+style Theme.NetraCaneTest
+xml backup_rules
+xml data_extraction_rules
